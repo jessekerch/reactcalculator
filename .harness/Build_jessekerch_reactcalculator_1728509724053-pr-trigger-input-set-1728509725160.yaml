@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jessekerch_reactcalculator_1728509724053-pr-trigger-input-set
+  identifier: Build_jessekerch_reactcalculator_1728509724053prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_jessekerch_reactcalculator_1728509724053
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
